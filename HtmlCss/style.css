@@ -1,0 +1,54 @@
+/* องค์ประกอบของ css */
+/* ประกอบด้วย 1. selector (บอกสิ่งที่อยู่ข้างใน{}จะไว้ตกแจ่งอะไรใน html) */
+/* 2. property 3.Value */
+
+/* .my-text (selector){
+    color (property): red (Value);
+    font-size (property): 20px (Value)
+} */
+
+.box {
+    background-color: skyblue;
+    padding: 20px; /* เว้นระยะด้านใน*/
+    margin-bottom: 20px;/* เว้นระยะด้านล้าง */
+}
+
+.title {
+    font-size: 60px;
+}
+
+.text {
+    font-size: 30px;
+}
+
+.button {
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
+
+.button1 {
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block; /* ทำให้มีขนาดเต็มบรรทัด และสามารถกำหนดขนาดได้ด้วย width*/
+    width: 40%
+}
+
+.button1_1 {
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block; /* ทำให้ block มากกว่า 2 อัน อยู่ในบรรทัดเดียวกันได้ ถ้าความยาวไม่เกิน 100%*/
+    width: 30%
+}

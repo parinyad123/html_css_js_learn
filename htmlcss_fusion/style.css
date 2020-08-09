@@ -1,0 +1,52 @@
+html,
+body {
+	background-color: lightgray;
+	/* set 0 ให้พื้นที่ขอบของ web ที่แถมมา ด้วย margin , padding*/
+	margin: 0;
+	padding: 0;
+}
+
+.top-header {
+    background-color: rgb(54, 52, 52);
+}
+
+.menu-item {
+    color: white;
+    padding: 15px;
+    display: inline-block; /* ทำให้ปุ่มเรียงเป็นแถวเดียวกัน */
+    text-decoration: none; /* ลบขีดเส้นใต้ข้อความ */
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-content {
+    max-width: 700px;/* ทำให้ div main-content มีความกว้าง 700px */
+    margin: auto; /* จัดให้กล่อง div อยู่ตรงกลาง */
+}
+
+.box {
+	background-color: white;
+	padding: 20px;
+	margin: 30px;
+}
+
+.image {
+	width: 100%;
+}
+
+.button {
+    color: black;
+    background-color: rgba(167, 187, 212, 0.466);
+    padding: 10px;
+    text-decoration: none;  /* ลบขีดเส้นใต้ออกจากข้อความ */
+    display: inline-block; /*  ปรับการแสดงให้มีระยะที่เหมาะสม */
+}
+
+.bottom-footer {
+    background-color: rgb(221, 192, 192);
+    padding: 10px;
+    text-align: center;
+}
